@@ -1,0 +1,7 @@
+//Total post count - shortcode - [total_posts]
+
+function wpb_total_posts() { 
+$total = wp_count_posts()->publish;
+return $total; 
+} 
+add_shortcode('total_posts','wpb_total_posts');
