@@ -1,0 +1,7 @@
+// Total / specific post type count - shortcode - [total_posts]
+
+function keny_total_posts() { 
+$total = wp_count_posts()->publish;  // in brackets the name of the post type for specific post type
+return $total; 
+} 
+add_shortcode('total_posts','keny_total_posts');
