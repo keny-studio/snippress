@@ -1,0 +1,2 @@
+// WordPress Cron On/Off
+define('DISABLE_WP_CRON', false); // true/false
