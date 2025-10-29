@@ -1,0 +1,2 @@
+// Wordpress Memory Limit (default 64MB) - Dont set bigger than 524
+define('WP_MEMORY_LIMIT', '256M');
