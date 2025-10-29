@@ -1,0 +1,8 @@
+// Conditional metatag - Redirect page to URL after X sec
+function keny_redirect_page() {
+
+    if ( is_page('page-slug') ) { // page slug you want to redirect from
+         echo '<meta http-equiv="refresh" content="X;URL=https://keny.studio">'; // X - time in sec, URL - url to redirect to
+         }
+   }
+add_action('wp_head', 'keny_redirect_page');
