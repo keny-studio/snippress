@@ -1,0 +1,8 @@
+// Add stylesheet file to child theme
+
+add_action( 'wp_enqueue_scripts', 'keny_enqueue_styles' );
+
+function keny_enqueue_styles() {
+	wp_enqueue_style( 
+		'keny-style', 
+		get_stylesheet_uri());}
