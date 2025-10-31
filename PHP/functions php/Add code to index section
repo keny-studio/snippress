@@ -1,4 +1,4 @@
-// add html to header / body / footer
+// add code to header / body / footer
 
 add_action('wp_head', 'keny_add_to_header'); // use 'wp_head' / 'wp_body_open' / 'wp_footer'
 function keny_add_to_header(){
