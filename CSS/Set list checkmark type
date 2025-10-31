@@ -1,0 +1,4 @@
+/* list checkmark type */
+ul.is-style-checkmark-list {
+    list-style-type: "\2717"; /* unicode character number */
+}
