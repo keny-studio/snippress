@@ -1,0 +1,11 @@
+/* clip image to text*/
+.clip-text {
+    @supports (background-clip:text) or (-webkit-background-clip:text) {
+      color: transparent;
+      background-clip: text;
+      -webkit-background-clip: text;
+      background-image: url(https://keny.studio/wp-content/uploads/xxx.webp); /* url of image to clip */
+      background-size: cover;
+      background-position: center;
+    }
+  }
