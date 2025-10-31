@@ -1,0 +1,4 @@
+/* transition for all elements */
+* { 
+   transition: all 180ms ease; 
+}
