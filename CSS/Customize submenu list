@@ -1,0 +1,8 @@
+/* customize submenu list */
+.wp-block-navigation__submenu-container {
+  border-radius: 16px;
+}
+.wp-block-navigation__submenu-container .wp-block-navigation-item { 
+  border-radius: 16px;
+  background-color: transparent
+}
