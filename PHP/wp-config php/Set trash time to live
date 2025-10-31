@@ -1,0 +1,3 @@
+// Set trash time to live
+
+define('EMPTY_TRASH_DAYS', X); // X = days
