@@ -1,0 +1,7 @@
+/* selection customization */
+::-moz-selection {
+	color: x;
+	background: y;}
+::selection {
+	color: x;
+	background: y;}
