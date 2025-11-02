@@ -1,0 +1,32 @@
+// Text typing animation
+
+const words = ["KENY STUDIO 1", "KENY STUDIO 2]; // textste - add as many as needed
+    const dynamicText = document.getElementsByClassName('dynamic-text')[0];
+
+let wordIndex = 0;
+    let letterIndex = 0;
+    let isDeleting = false;
+    let typingSpeed = 110;
+    let deletingSpeed = 50;
+    let pauseBetweenWords = 1100;
+
+    function type() {
+      const currentWord = words[wordIndex];
+
+      if (!isDeleting) {
+        dynamicText.textContent = currentWord.slice(0, letterIndex + 1);
+        letterIndex++;
+
+        if (letterIndex === currentWord.length) {
+          isDeleting = true;
+          setTimeout(type, pauseBetweenWords);
+          return;}
+      } else {
+        dynamicText.textContent = currentWord.slice(0, letterIndex - 1);
+        letterIndex--;
+
+        if (letterIndex === 0) {
+          isDeleting = false;
+          wordIndex = (wordIndex + 1) % words.length;}}
+      setTimeout(type, isDeleting ? deletingSpeed : typingSpeed);}
+    type();
