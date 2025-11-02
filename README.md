@@ -1,3 +1,5 @@
+# snippress
+
 $${\color{gold}SnipPress \space - \space WordPress \space Snippets \space Library}$$
 
 Simply just a personal library of useful Wordpress snippets.
