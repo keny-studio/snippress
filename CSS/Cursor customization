@@ -1,0 +1,15 @@
+/* cursor customization - 32x32px image */
+
+/* default */
+html {cursor: url(https://xxx.com), default;}
+
+/* pointer */
+a {cursor: url(https://xxx.com) 16 16, default;}
+.wp-block-button__link {cursor: url(xxx.com) 16 16, default;}
+
+/* text */
+input{cursor: url(xxx.com) 16 16, default;}
+textarea {cursor: url(xxx.com) 16 16, default;}
+
+/* send */
+input[type=submit] {cursor: url(xxx.com) 16 16, default;}
