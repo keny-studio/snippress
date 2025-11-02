@@ -1,15 +1,15 @@
 /* cursor customization - 32x32px image */
 
 /* default */
-html {cursor: url(https://xxx.com), default;}
+html {cursor: url(https://keny.studio/1.png), default;}
 
 /* pointer */
-a {cursor: url(https://xxx.com) 16 16, default;}
-.wp-block-button__link {cursor: url(xxx.com) 16 16, default;}
+a {cursor: url(https://keny.studio/2.png) 16 16, default;}
+.wp-block-button__link {cursor: url(https://keny.studio/2.png) 16 16, default;}
 
 /* text */
-input{cursor: url(xxx.com) 16 16, default;}
-textarea {cursor: url(xxx.com) 16 16, default;}
+input{cursor: url(https://keny.studio/3.png 16 16, default;}
+textarea {cursor: url(https://keny.studio/3.png) 16 16, default;}
 
 /* send */
-input[type=submit] {cursor: url(xxx.com) 16 16, default;}
+input[type=submit] {cursor: url(https://keny.studio/4.png) 16 16, default;}
