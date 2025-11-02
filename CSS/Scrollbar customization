@@ -1,0 +1,6 @@
+/* scrollbar customization */
+:root{
+  scrollbar-width: thin;
+  scrollbar-color: x y; /* x = handle color, y = track color
+  scroll-behavior: smooth;
+}
