@@ -1,0 +1,7 @@
+/* sticky header */
+header.wp-block-template-part {
+  position: fixed;
+  width: 100%;
+  z-index:99999;
+  top:0px;
+}
