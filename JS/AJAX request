@@ -1,0 +1,17 @@
+//AJAX Request
+
+var ourRequest = new XMLHttpRequest();
+ourRequest.open('GET', 'keny.studio/wp-json/wp/v2/posts'); // Type of request, JSON Data URL
+ourRequest.onload = function() {
+  if (ourRequest.status >= 200 && ourRequest.status < 400) {
+    var data = JSON.parse(ourRequest.responseText);
+  } else {
+    console.log(Server responded, but it returned an error.");
+  }
+};
+
+ourRequest.onerror = function() {
+  console.log("Server connection error");
+};
+
+ourRequest.send();
