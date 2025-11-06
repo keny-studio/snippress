@@ -1,0 +1,5 @@
+// Install block scaffold
+
+npx @wordpress/create-block@latest KENY-BLOCK-NAME --viariant dynamic --target-dir . // insert your block name
+
+npm start // start automatic bundling and compiling
