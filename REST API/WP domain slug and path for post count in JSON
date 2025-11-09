@@ -1,0 +1,5 @@
+// WordPress domain slug and path for post count in JSON
+
+https://keny.studio/wp-json/wp/v2/posts?_envelope&per_page=1 // insert your domain name // change posts to specific category if needed
+
+$.headers["X-WP-Total"] // path query for total post count 
