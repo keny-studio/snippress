@@ -1,0 +1,3 @@
+// Install Sage Development Theme
+
+composer create-project roots/sage KENY-theme-name dev-main // insert your theme name
