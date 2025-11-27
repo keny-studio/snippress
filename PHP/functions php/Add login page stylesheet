@@ -1,0 +1,7 @@
+// Add login page stylesheet
+
+function keny_login_style() {
+    wp_enqueue_style( 'custom-login', get_stylesheet_directory_uri() . '/style-login.css' );   // Replace style-login.css with the name of your CSS file
+}
+
+add_action( 'login_enqueue_scripts', 'keny_login_style' );
