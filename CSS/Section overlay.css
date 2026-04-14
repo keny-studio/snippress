@@ -1,0 +1,11 @@
+.overlay:before {
+display: block !important;
+position: absolute !important;
+top: 0 !important;
+right: 0 !important;
+bottom: 0 !important;
+left: 0 !important;
+background-color: rgba(0, 0, 0, 0.7) !important; /* plain color overlay */
+/* background: -webkit-linear-gradient(left, rgba(147, 87, 204, 0.54) 0%,rgba(41, 137, 216, 0.51) 50%,rgba(44, 201, 157, 0.58) 100%); */ /* gradient overlay */
+z-index: 1 !important;
+content: ' ' !important; }
