@@ -1,0 +1,5 @@
+/* Fix for problem with centering small icons (below 24px)
+- Originally line height is adding top padding, so it's need to be reduced */
+.wp-block-image {
+line-height:0;
+}
