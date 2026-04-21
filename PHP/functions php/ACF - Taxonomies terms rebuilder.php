@@ -1,3 +1,4 @@
+<?php
 // FIX FOR: missing post taxonomies, caused by ACF "Save Terms : OFF" when creating posts
 
 // To fix this manually you need to resave all posts again.
