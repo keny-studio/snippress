@@ -1,0 +1,13 @@
+/* card - hover effects - shadow - image zoom - button arrow animation*/
+.card:hover {
+    box-shadow: 4px 4px 12px #00000025;
+    transform: translate(0px, -6px);
+  
+    .wp-block-post-featured-image {
+        scale: 1.05;
+    }
+    /* Excerpt - button right arrow - hover */
+    .wp-block-post-excerpt__more-link::after {
+        margin-left:8px;
+    }
+}
