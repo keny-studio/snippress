@@ -1,3 +1,12 @@
+// Add Custom Keyboard Shortcuts in Gutenberg Editor
+
+// Shortcut	   Action
+// Alt + C	   Styles → Blocks
+// Alt + V	   Settings → Block
+// Alt + B	   Advanced → CSS field
+// Alt + D	   Duplicate block
+// Alt + N     Command Palette
+
 document.addEventListener('keydown', async function (e) {
 
     const isAlt = e.altKey;
